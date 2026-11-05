@@ -56,3 +56,5 @@ for (const signal of ['SIGTERM', 'SIGINT']) {
     process.exit(0);
   });
 }
+const tickets = require("./src/tickets");
+tickets.init(client);
